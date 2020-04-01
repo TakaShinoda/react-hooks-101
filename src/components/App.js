@@ -1,7 +1,7 @@
 import React, { useReducer, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import reducer from '../reducers'
-import { Event } from './Event.jsx'
+import { Event } from './Event'
 
 const App = () => {
   const [state, dispatch] = useReducer(reducer, [])
